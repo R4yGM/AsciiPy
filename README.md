@@ -3,7 +3,7 @@ translate images, videos and text to Ascii arts easy
 
 translate text to asciiart with 400+ different fonts and images, videos from any path or url!
 
-![](https://imgur.com/gallery/sPzi6Nt)
+![](https://media.giphy.com/media/WrJ7YDJhx8J5KjYmwM/giphy.gif)
 ## Install
 to install you have to clone the repository
 ```shell
