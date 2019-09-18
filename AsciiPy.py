@@ -184,6 +184,12 @@ class AsciiVideo :
        #clean.cleanframes()
        clean.cleanVids()
        return completeVideo
+class AsciiHelp:
+    
+    def help(self):
+        print('AsciiPy v0.1 tool help\n','-u generates a Ascii art image from url : py AsciiPy.py -u https://r4yan.ga/images-videos/python-logo.png\n')
+        print('-p generates a Ascii art image from path : py AsciiPy.py -p /path/to/my/image.png\n')
+        print('-f give you all the fonts you can use\n')
     
 if __name__ == '__main__':
     asciiImage = AsciiImage()
@@ -203,6 +209,8 @@ if __name__ == '__main__':
         clean.cleanframes()
         clean.cleanVids()
         AsciiVideo().VideoFromUrl(sys.argv[2])
+    elif sys.argv[1].startswith('-h'):
+        AsciiHelp().help()
         
         
 
