@@ -45,3 +45,8 @@ $ py AsciiPy -vid-path [path to video]
 ```shell
 $ py AsciiPy -vid-url [url to video]
 ```
+### help
+```shell
+$ py AsciiPy -h
+```
+this prints a list of commands with examples
