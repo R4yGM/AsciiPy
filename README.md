@@ -55,6 +55,15 @@ AsciiPy.AsciiImage.VideoFromUrl("https://r4yan.ga/images-videos/cube.mp4")
 #this will automatically prints the video
 ```
 to asciify a video by url
+### Get list of fonts in python script
+after you have imported the module type:
+```python
+lst = AsciiPy.AsciiText.FontList()
+print(lst)
+```
+this will print ove 400 different fonts you can use to generate texts
+## Asciify in Terminal
+
 ### Asciify a image from url
 to asciify a image you have to run
 ```shell
