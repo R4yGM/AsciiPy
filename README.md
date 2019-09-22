@@ -15,6 +15,46 @@ this tool has dependency, and to install them you have to run
 $ chmod +x requirements.sh
 $ ./requirements.sh
 ```
+## Asciify in your python script
+to start asciifying in your script you have to import the module
+```python
+import AsciiPy
+```
+### Asciify a text in python script
+after you have imported the module type:
+```python
+text = AsciiPy.AsciiText.GenerateText("hey", "graffiti")
+print(text)
+```
+to asciify a text
+### Asciify a image from url in your python script
+after you have imported the module type:
+```python
+img = AsciiPy.AsciiImage.GenerateFromUrl("https://r4yan.ga/images-videos/python-logo.png")
+print(img)
+```
+to asciify a image by url
+### Asciify a image from path in your python script
+after you have imported the module type:
+```python
+img = AsciiPy.AsciiImage.GenerateFromPath("python-logo.png")
+print(img)
+```
+to asciify a image by url
+### Asciify a video from path in your python script
+after you have imported the module type:
+```python
+AsciiPy.AsciiImage.VideoFromPath("images-videos/cube.mp4")
+#this will automatically prints the video
+```
+to asciify a video by path
+### Asciify a video from url in your python script
+after you have imported the module type:
+```python
+AsciiPy.AsciiImage.VideoFromUrl("https://r4yan.ga/images-videos/cube.mp4")
+#this will automatically prints the video
+```
+to asciify a video by url
 ### Asciify a image from url
 to asciify a image you have to run
 ```shell
