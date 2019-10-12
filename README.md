@@ -23,7 +23,8 @@ import AsciiPy
 ### Asciify a text in python script
 after you have imported the module type:
 ```python
-text = AsciiPy.AsciiText.GenerateText("hey", "graffiti")
+text = AsciiPy.AsciiText.GenerateText(TEXT, FONT")
+text = AsciiPy.AsciiText.GenerateText("Hey", "graffiti")
 print(text)
 ```
 to asciify a text
