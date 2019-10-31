@@ -12,8 +12,7 @@ $ git clone https://github.com/R4yGM/AsciiPy
 ## Depencies
 this tool has dependency, and to install them you have to run 
 ```shell
-$ chmod +x requirements.sh
-$ ./requirements.sh
+$ pip install -r requirements.txt
 ```
 ## Asciify in your python script
 to start asciifying in your script you have to import the module
